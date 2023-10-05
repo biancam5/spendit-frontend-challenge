@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "jsx": "react",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "isolatedModules": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/components/custom/data-table.js"],
+    "exclude": ["node_modules"]
+  }
+  

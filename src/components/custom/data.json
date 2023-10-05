@@ -1,0 +1,20 @@
+[
+  { "id": 1, "name": "Alice", "lastName": "Smith", "age": 20},
+  { "id": 2, "name": "Scarlett", "lastName": "Johansson", "age": 30 },
+  { "id": 3, "name": "Charlie", "lastName": "Brown", "age": 22 },
+  { "id": 4, "name": "David", "lastName": "Beckham", "age": 35 },
+  { "id": 5, "name": "Robert", "lastName": "Downey jr", "age": 22 },
+  { "id": 6, "name": "Frank", "lastName": "Sinatra", "age": 23 },
+  { "id": 7, "name": "Grace", "lastName": "Cooper", "age": 24 },
+  { "id": 8, "name": "Helen", "lastName": "Giacommo", "age": 19 },
+  { "id": 9, "name": "Ivy", "lastName": "Jackson", "age": 31 },
+  { "id": 10, "name": "Jackie", "lastName": "Iverson", "age": 32 },
+  { "id": 11, "name": "Kelly", "lastName": "Clarkson ", "age": 26 },
+  { "id": 12, "name": "Minho", "lastName": "Lee", "age": 34 },
+  { "id": 13, "name": "Mia", "lastName": "Miller", "age": 23 },
+  { "id": 14, "name": "Nick", "lastName": "Nelson", "age": 27 },
+  { "id": 15, "name": "Olivia", "lastName": "Schmidt", "age": 28 },
+  { "id": 16, "name": "Patricia", "lastName": "Lopez", "age": 33 },
+  { "id": 17, "name": "Harley", "lastName": "Quinn", "age": 30 },
+  { "id": 18, "name": "Rachel", "lastName": "Green", "age": 31  }
+]

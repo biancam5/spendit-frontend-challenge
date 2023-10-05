@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  table {
+    border-collapse: collapse;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  table, th, td {
+    border: 1px solid #423d3d;
   }
-}
+
+  th {
+    background-color: #ffb5b5; 
+    color: rgb(5, 4, 4);
+    padding: 8px;
+    text-align: left;
+  }
+
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .pagination {
+    margin-top: 10px;
+  }
+
+  button {
+    background-color: #ffb5b5;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  .custom-header {
+    background-color: #ffb5b5; 
+    color: rgb(5, 4, 4);
+    padding: 8px;
+    text-align: left;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .close-button:hover {
+    color: rgb(232, 146, 201);
+  }
+
+  .modal h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal button {
+    background-color: #ffb5b5;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .modal button.save-button {
+    background-color: #e40db2;
+    color: white;
+  }
+  .checkbox-button{
+    background-color: #FF69B4;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
